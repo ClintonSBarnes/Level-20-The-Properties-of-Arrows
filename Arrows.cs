@@ -104,7 +104,7 @@ namespace Level_20_The_Properties_of_Arrows
 
         public void AddShaftToCost()
         {
-            _arrowCost = _shaftLength * 0.05f;
+            _arrowCost += _shaftLength * 0.05f;
         }
 
         public void SingleArrowOrderSummary()
